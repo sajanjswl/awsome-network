@@ -1,15 +1,226 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de84c6d5-8f4d-47ec-8662-2a6b755f07ee" name="Default Changelist" comment="" />
+    <list default="true" id="de84c6d5-8f4d-47ec-8662-2a6b755f07ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/awsome-network.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TLS-CA/client/crypto/tls-ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TLS-CA/client/fabric-ca-client-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TLS-CA/client/msp/IssuerPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TLS-CA/client/msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TLS-CA/client/msp/cacerts/0-0-0-0-7052.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TLS-CA/client/msp/keystore/e95215c8c5f96828cfb0b09df0dea06c1e5de486f7f20c743ecc5adc1ee6e605_sk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TLS-CA/client/msp/signcerts/cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TLS-CA/server/crypto/IssuerPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TLS-CA/server/crypto/IssuerRevocationPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TLS-CA/server/crypto/ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TLS-CA/server/crypto/fabric-ca-server-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TLS-CA/server/crypto/fabric-ca-server.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TLS-CA/server/crypto/msp/keystore/17cb6df7b6f36a270a9725085e3152cadace98af807f545a03c68d5d79ef87df_sk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TLS-CA/server/crypto/msp/keystore/91e259b89493589ee2f98779014158cce841e6b30dead21e9e73c49e65a2d7cd_sk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TLS-CA/server/crypto/msp/keystore/IssuerRevocationPrivateKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TLS-CA/server/crypto/msp/keystore/IssuerSecretKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TLS-CA/server/crypto/tls-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TLS-CA/tls-ca-server.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TLS-CA/tlsCA-setup.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/configtx.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/configtxgen" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/genesis.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/admin/ca/org0-ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/admin/fabric-ca-client-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/admin/msp/IssuerPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/admin/msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/admin/msp/admincerts/org0-admin-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/admin/msp/cacerts/0-0-0-0-7053.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/admin/msp/keystore/c2988c87f8c3f40ace5145a4d275f9168df8b6e9f1e0aef324cc575274a5f8fa_sk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/admin/msp/signcerts/cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/ca/client/admin/fabric-ca-client-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/ca/client/admin/msp/IssuerPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/ca/client/admin/msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/ca/client/admin/msp/cacerts/0-0-0-0-7053.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/ca/client/admin/msp/keystore/a99ff3fbd569f7c0fa67ff9403236dac21b7897374e8e9cf4e86a62b1843c34f_sk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/ca/client/admin/msp/signcerts/cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/ca/client/admin/tls-ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/ca/server/crypto/IssuerPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/ca/server/crypto/IssuerRevocationPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/ca/server/crypto/ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/ca/server/crypto/fabric-ca-server-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/ca/server/crypto/fabric-ca-server.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/ca/server/crypto/msp/keystore/29e64fa6029fcb7d11aa18cded0fcc37ffc7ebba5bff78c036a5de08dc656327_sk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/ca/server/crypto/msp/keystore/842b42b26e5d44295f053aa60122bb5ce8886640bb8678434a89e6aa785dfe77_sk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/ca/server/crypto/msp/keystore/IssuerRevocationPrivateKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/ca/server/crypto/msp/keystore/IssuerSecretKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/ca/server/crypto/tls-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/msp/admincerts/org0-admin-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/msp/cacerts/org0-ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/msp/tlscacerts/tls-ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/orderer/assets/ca/org0-ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/orderer/assets/tls-ca/tls-ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/orderer/fabric-ca-client-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/orderer/genesis.block" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/orderer/msp/IssuerPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/orderer/msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/orderer/msp/admincerts/org0-admin-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/orderer/msp/cacerts/0-0-0-0-7053.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/orderer/msp/keystore/d875096919acc85202f1bfac94394f15f55f6fc85dc369c93b0c528548a34c19_sk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/orderer/msp/signcerts/cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/orderer/tls-msp/IssuerPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/orderer/tls-msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/orderer/tls-msp/keystore/key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/orderer/tls-msp/signcerts/cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/orderer/tls-msp/tlscacerts/tls-0-0-0-0-7052.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/ordererCA.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/setup-admin.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/setup-orderer.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/setup-org0-msp.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org0/setupOrg0CA.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/admin/ca/org1-ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/admin/fabric-ca-client-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/admin/msp/IssuerPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/admin/msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/admin/msp/admincerts/org1-admin-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/admin/msp/cacerts/0-0-0-0-7054.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/admin/msp/keystore/593a57efef5070b4b153e2a9c1093348ac4ad25d79c4f33dd089b058f5e2b650_sk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/admin/msp/signcerts/cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/ca/client/admin/fabric-ca-client-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/ca/client/admin/msp/IssuerPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/ca/client/admin/msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/ca/client/admin/msp/cacerts/0-0-0-0-7054.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/ca/client/admin/msp/keystore/eef0f9e740127f7c3f503bc1f8b896a185d81ceed6cb9b6a7831c438e8cd7923_sk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/ca/client/admin/msp/signcerts/cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/ca/client/admin/tls-ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/ca/server/crypto/IssuerPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/ca/server/crypto/IssuerRevocationPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/ca/server/crypto/ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/ca/server/crypto/fabric-ca-server-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/ca/server/crypto/fabric-ca-server.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/ca/server/crypto/msp/keystore/295c7d2e41cd5b2d6f381fcae478759cd64bae9860c986a7b26f65704ee69b75_sk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/ca/server/crypto/msp/keystore/88030e49f3c5f8425f5f685739e79792a5350aad848688b7c60c53ee7722f5b1_sk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/ca/server/crypto/msp/keystore/IssuerRevocationPrivateKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/ca/server/crypto/msp/keystore/IssuerSecretKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/ca/server/crypto/tls-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/msp/admincerts/org1-admin-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/msp/cacerts/org1-ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/msp/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/msp/tlscacerts/tls-ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/org1CA.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer1/assets/ca/org1-ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer1/assets/chaincode/sacc/sacc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer1/assets/channel.tx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer1/assets/mychannel.block" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer1/assets/tls-ca/tls-ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer1/fabric-ca-client-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer1/msp/IssuerPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer1/msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer1/msp/admincerts/org1-admin-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer1/msp/cacerts/0-0-0-0-7054.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer1/msp/keystore/6509e69e5ae0171e26ce57a436dc39b39db149723f313e700bfd513c8ba430da_sk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer1/msp/signcerts/cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer1/tls-msp/IssuerPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer1/tls-msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer1/tls-msp/keystore/key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer1/tls-msp/signcerts/cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer1/tls-msp/tlscacerts/tls-0-0-0-0-7052.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer2/assets/ca/org1-ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer2/assets/tls-ca/tls-ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer2/fabric-ca-client-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer2/msp/IssuerPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer2/msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer2/msp/admincerts/org1-admin-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer2/msp/cacerts/0-0-0-0-7054.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer2/msp/keystore/dfaf5e51c188f0c48234c1884f7b3f62ceec5b9c26613573af8f839136545c8b_sk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer2/msp/signcerts/cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer2/tls-msp/IssuerPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer2/tls-msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer2/tls-msp/keystore/key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer2/tls-msp/signcerts/cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/peers/peer2/tls-msp/tlscacerts/tls-0-0-0-0-7052.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/setup-admin.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/setup-org1-msp.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/setup-peer1.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/setup-peer2.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org1/setupOrg1CA.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/admin/ca/org2-ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/admin/fabric-ca-client-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/admin/msp/IssuerPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/admin/msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/admin/msp/admincerts/org2-admin-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/admin/msp/cacerts/0-0-0-0-7055.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/admin/msp/keystore/42f5025706ea29407d2e7d99abbfd028e55ecdc4dc9838573713594d0fbe0a61_sk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/admin/msp/signcerts/cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/ca/client/admin/fabric-ca-client-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/ca/client/admin/msp/IssuerPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/ca/client/admin/msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/ca/client/admin/msp/cacerts/0-0-0-0-7055.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/ca/client/admin/msp/keystore/f9167c14c96d5d662792f5b64a9acb095c6b7136549a4d716f52070e845a3ded_sk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/ca/client/admin/msp/signcerts/cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/ca/client/admin/tls-ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/ca/server/crypto/IssuerPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/ca/server/crypto/IssuerRevocationPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/ca/server/crypto/ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/ca/server/crypto/fabric-ca-server-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/ca/server/crypto/fabric-ca-server.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/ca/server/crypto/msp/keystore/22d03f0d841981ee24336e33f3f49f7bda163a84c9db668284bd084f67dc9d67_sk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/ca/server/crypto/msp/keystore/5b113590b4b908bdf1654536ac822cb867413ca446a19dc13b99ce0c77def4b8_sk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/ca/server/crypto/msp/keystore/IssuerRevocationPrivateKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/ca/server/crypto/msp/keystore/IssuerSecretKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/ca/server/crypto/tls-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/msp/admincerts/org2-admin-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/msp/cacerts/org2-ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/msp/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/msp/tlscacerts/tls-ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/org2CA.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer1/assets/ca/org2-ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer1/assets/mychannel.block" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer1/assets/tls-ca/tls-ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer1/fabric-ca-client-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer1/msp/IssuerPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer1/msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer1/msp/admincerts/org2-admin-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer1/msp/cacerts/0-0-0-0-7055.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer1/msp/keystore/6ed46eadbbd64312ca7507dc58d267cf735777be4b81fafa1c841450df2258c9_sk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer1/msp/signcerts/cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer1/tls-msp/IssuerPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer1/tls-msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer1/tls-msp/keystore/key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer1/tls-msp/signcerts/cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer1/tls-msp/tlscacerts/tls-0-0-0-0-7052.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer2/assets/ca/org2-ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer2/assets/tls-ca/tls-ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer2/fabric-ca-client-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer2/msp/IssuerPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer2/msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer2/msp/admincerts/org2-admin-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer2/msp/cacerts/0-0-0-0-7055.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer2/msp/keystore/9c00d7ecf2501cab6add43459f9dd45a3117eb2d2b4213e8ae770057ff86f753_sk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer2/msp/signcerts/cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer2/tls-msp/IssuerPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer2/tls-msp/IssuerRevocationPublicKey" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer2/tls-msp/keystore/key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer2/tls-msp/signcerts/cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/peers/peer2/tls-msp/tlscacerts/tls-0-0-0-0-7052.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/setup-admin.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/setup-org2-msp.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/setup-peer1.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/setup-peer2.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/org2/setupOrg2CA.sh" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1QqKhsEOeBUr0f0ThwxfzP8ZBsC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cmd" />
@@ -40,5 +251,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
